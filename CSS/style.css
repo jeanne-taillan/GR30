@@ -1,0 +1,61 @@
+@import url("https//fonts.googleapis.com/css?family=Lora");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	background-color: #C7E8CA;
+}
+ h1, h2, h3 {
+ 	font-family: 'Lora', serif;
+ 	font-weight: bold;
+ }
+
+h2{ 
+	color: #5D9C59;
+	text-align: center;
+ }
+
+ a {
+	text-decoration: none;
+	color:#A9907E ;
+}
+
+a:hover {
+	color: #A9907E;
+	text-decoration: underline;
+}
+
+p {
+	color:#395144;
+	font-family: Helvetica;
+	line-height: 1.5;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	color:#A9907E 
+	padding: 100px;
+}
+
+#list-inline li {
+	padding: 60px;
+	display: inline;
+
+}
+
+#list-inline {
+	list-style: none;
+
+}
